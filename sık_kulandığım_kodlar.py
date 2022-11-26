@@ -50,10 +50,20 @@ import os
 os._exit(1)
 
 
-# Center Text 
 
-
+# Center Text
 
 from pystyle import Center
 
 print(Center.XCenter("Hello this is centered text."))
+
+
+
+# Thread Sleep
+
+
+import time
+
+print("Printed immediately.")
+time.sleep(2.4)
+print("Printed after 2.4 seconds.")
